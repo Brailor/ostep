@@ -1,3 +1,6 @@
 [submodule "homework"]
 	path = homework
-	url = git@github.com:remzi-arpacidusseau/ostep-homework.git
+	url = git@github.com:Brailor/ostep-homework.git
+[submodule "projects"]
+	path = projects
+	url = git@github.com:Brailor/ostep-projects.git
