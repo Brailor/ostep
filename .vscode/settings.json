@@ -1,10 +1,13 @@
 {
-    "files.associations": {
-        "*.json": "jsonc",
-        "common.h": "c",
-        "assert.h": "c",
-        "stdlib.h": "c",
-        "unistd.h": "c"
-    },
-    "C_Cpp.errorSquiggles": "Disabled"
+  "files.associations": {
+    "*.json": "jsonc",
+    "common.h": "c",
+    "assert.h": "c",
+    "stdlib.h": "c",
+    "unistd.h": "c",
+    "stdio.h": "c",
+    "wait.h": "c",
+    "cdefs.h": "c"
+  },
+  "editor.formatOnSave": true
 }
