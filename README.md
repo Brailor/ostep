@@ -1,6 +1,6 @@
 # Ostep
 
-Repo which contains my solutions for the [Ostep book](https://pages.cs.wisc.edu/~remzi/OSTEP/).
+Repo which contains my code/experiments while reading the [Ostep book](https://pages.cs.wisc.edu/~remzi/OSTEP/).
 
 ## Notes
 
