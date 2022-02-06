@@ -9,7 +9,9 @@
     "wait.h": "c",
     "cdefs.h": "c",
     "locale": "c",
-    "__config": "c"
+    "__config": "c",
+    "istream": "c",
+    "__functional_03": "c"
   },
   "editor.formatOnSave": true
 }
