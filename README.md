@@ -24,3 +24,29 @@ So the correct way of doing it is:
 ```sh
 man strdup
 ```
+
+### Using Linux VM
+
+Since I'm using a MacOS system I don't have every utility/program (such as `free` etc.) mentioned in the book.
+In order to be able to learn and experiment with such programs I will use a local Linux box with `Vagrant`. This box is a standard base box provided by hashicorp.
+
+To start up the vm:
+
+```sh
+# in the root of this repo
+vagrant up
+```
+
+Host/vm sync is set up, so I can modify the project from the vm as well. In VS Code there is a convinient feature that allows attaching to remote machines with `ssh`.
+
+To set it up:
+
+1. ```sh
+   vagrant ssh-config > VM_SSH_CONF
+   ```
+2. Install the `Remote SSH` extension for VS Code
+3. press `CMD+SHIFT+P` then search for `Remote-SSH: Settings`
+4. configure the `Remote.SSH: Config File` to point to the previously created `VM_SSH_CONF` file
+5. press `CMD+SHIFT+P` again, search for `Remote-SSH: Connect to Host`
+6. select the `defualt` from the list
+7. VS Code should open a new instance connected to the VM

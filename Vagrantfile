@@ -14,7 +14,7 @@ Vagrant.configure("2") do |config|
   # boxes at https://vagrantcloud.com/search.
   config.vm.box = "hashicorp/base"
 
-  config.vm.hostname = 'debian-vm-ostep'
+  config.vm.hostname = 'vm-ostep'
 
   config.vagrant.plugins = ['vagrant-vbguest']
 
