@@ -2,6 +2,8 @@
 
 Repo which contains my code/experiments while reading the [Ostep book](https://pages.cs.wisc.edu/~remzi/OSTEP/).
 
+Notes file: [here](/notes.md)
+
 ## Notes
 
 It looks like to me that looking into the reference of a given function is not worthwile to do, since it will just show the system dependant header files.
